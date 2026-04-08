@@ -1,0 +1,171 @@
+body{
+    background-color: gray;
+    margin: 0%;
+}
+
+.header {
+    background-color: #1f2937;  
+}
+
+.header-content {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    margin-left: auto;
+}
+
+a {
+  display: flex;
+  padding: 8px 12px;
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+a:hover {
+  background-color: tomato;
+  color: white;
+  border-radius: 5px;
+}
+
+h1 {
+    color: white;
+    font-weight: bold;
+}
+
+.box1 {
+    background-color: #1f2937; 
+    
+}
+.box1-content {
+    display: flex;
+    max-width: 800px;
+    align-items: center;
+    padding: 50px;
+    justify-content: space-between; 
+    margin: auto;
+    color: white;
+}
+.imageholder img {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+}
+
+.imageholder {
+    width: 200px;
+  height: 150px;               /* Sabit yükseklik */
+  object-fit: cover;           /* Resim kutuyu doldurur, orantıyı bozar ama taşmaz */
+  border-radius: 10px;
+  margin-bottom: 10px;
+
+
+}
+
+.about{
+    max-width: 400px;
+}
+
+button{
+    color: white;
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-weight: 600;
+}
+
+.box2{
+    
+    background-color: white;
+    
+}
+
+.box2-content{
+    justify-content: center;
+    align-items: center;    
+    flex-wrap: wrap;
+    display: flex;
+    max-width: 800px;
+    margin: auto;
+}
+
+.header2{
+    display: flex;
+    color: black;
+}
+
+.soups{
+    display: flex;
+    text-align: center;
+    
+}
+
+.box3{
+    background-color: #E5E7EB;
+}
+
+.box3-content {
+    display: flex;
+    max-width: 800px;
+    align-items: center;
+    padding: 50px;
+    justify-content: space-between; 
+    margin: auto;
+    color: white;
+    color: #1f2937;
+    font-weight: 300;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.box4{
+    background-color: white;
+    padding: 50px;
+}
+.box4-content{
+    display: flex;
+    flex-direction: row;
+    background-color: #3882f6;
+    max-width: 800px;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 25px;
+    border-radius: 5px;
+    gap: 20px;
+    color: white;
+}
+h2{
+    margin: 0%;
+    font-size: 19px;
+    
+}
+
+.info{
+    margin-left: 50px;
+}
+
+.call{
+    margin-right: 50px;
+}
+
+p{
+    margin: 0%;
+}
+
+.box5{
+    display: flex;
+    padding: 25px;
+    text-align: center;
+    justify-content: center;
+    background-color: #1f2937;
+    color: white;
+}
